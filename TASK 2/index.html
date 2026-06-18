@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Visual Exploration Gallery</h1>
+
+    <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="architecture">Architecture</button>
+        <button class="filter-btn" data-filter="animals">Animals</button>
+    </div>
+
+    <div class="gallery-container" id="gallery">
+        
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Majestic Mountains" data-full="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Majestic Mountains</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=600&q=80" alt="Enchanted Forest" data-full="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Enchanted Forest</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80" alt="Foggy Valley" data-full="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Foggy Valley</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80" alt="Sunlight Through Trees" data-full="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Sunlight Woods</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://plus.unsplash.com/premium_photo-1733259748225-1ee627330aac?auto=format&fit=crop&w=600&q=80" alt="Peaceful Meadow">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Peaceful Meadow</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1433832597046-4f10e10ac764?auto=format&fit=crop&w=600&q=80" alt="Hot Air Balloons Over Desert" data-full="https://images.unsplash.com/photo-1433832597046-4f10e10ac764?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Desert Flight</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=600&q=80" alt="Sunbeam in Deep Forest" data-full="https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Forest Magic</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Tropical Beach Sunset" data-full="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Golden Ocean</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" alt="Skyscraper Skyline" data-full="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Skyscraper Skyline</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" alt="Modern Interior Geometry" data-full="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Modern Design</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=600&q=80" alt="City Lights At Night" data-full="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Neon Metropolis</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="Classic European Building" data-full="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Historic Heritage</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="https://plus.unsplash.com/premium_photo-1678193471871-bb36f8a856a3?auto=format&fit=crop&w=600&q=80" alt="Vortex Stairs">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Vortex Stairs</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&q=80" alt="Minimalist Cozy Room" data-full="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Minimalist Space</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=600&q=80" alt="Luxury Palace Exterior" data-full="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Grand Hotel</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?auto=format&fit=crop&w=600&q=80" alt="Futuristic Glass Tower" data-full="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Glass Geometry</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=600&q=80" alt="African Lion" data-full="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>African Lion</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=600&q=80" alt="Cool Cat with Glasses" data-full="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Cool Cat</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=600&q=80" alt="Happy Dog" data-full="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Happy Dog</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=600&q=80" alt="Leaping Leopard" data-full="https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=1200&q=80">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Stealth Leopard</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1637424864367-7ab8752c19c6?auto=format&fit=crop&w=600&q=80" alt="Whiskers Cute">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Whiskers Cute</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=600&q=80" alt="Red Fox">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Red Fox</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1778073454846-754b05154e95?auto=format&fit=crop&w=600&q=80" alt="Tusk Giant">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Tusk Giant</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://plus.unsplash.com/premium_photo-1697295632798-1fd721338269?auto=format&fit=crop&w=600&q=80" alt="Monarch Wing">
+            <div class="item-overlay">
+                <div class="item-info">
+                    <h3>Monarch Wing</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="close-btn" id="close-btn">&times;</button>
+            <button class="nav-btn prev-btn" id="prev-btn">&#10094;</button>
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <button class="nav-btn next-btn" id="next-btn">&#10095;</button>
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
