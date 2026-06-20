@@ -42,10 +42,9 @@ Interactive-Image-Gallery/
 - Add image search by title
 - Lazy-load images for faster initial page load
 
-## 📬 Contact
+📬 Contact
 
-**Arshia** — [GitHub @Arshia239](https://github.com/Arshia239)
-
+Arshia — GitHub @Arshia239 | LinkedIn
 
 ---
 
