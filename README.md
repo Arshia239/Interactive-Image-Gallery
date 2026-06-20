@@ -4,6 +4,8 @@ A responsive, filterable image gallery with a smooth lightbox viewer — built u
 
 🔗 **Live Demo:** [interactive-image-gallery-psi.vercel.app](https://interactive-image-gallery-psi.vercel.app)
 
+![Interactive Image Gallery Preview](screenshot.png)
+
 ## ✨ Features
 
 - 🗂️ **Category filtering** — switch between All, Nature, Architecture, and Animals
@@ -27,6 +29,18 @@ Interactive-Image-Gallery/
 ├── style.css
 ├── script.js
 └── README.md
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Arshia239/Interactive-Image-Gallery.git
+cd Interactive-Image-Gallery
+```
+
+Then simply open `index.html` in your browser — no build tools or dependencies required.
 
 ## 📌 What I Learned
 
@@ -48,6 +62,8 @@ Interactive-Image-Gallery/
 ---
 
 ⭐ If you like this project, consider giving it a star!
+
+
 
 
 
