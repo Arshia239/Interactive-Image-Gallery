@@ -2,7 +2,9 @@
 
 A responsive, filterable image gallery with a smooth lightbox viewer — built using vanilla HTML, CSS, and JavaScript. Browse images by category and view them full-screen with next/previous navigation.
 
-🔗 **Live Demo:** (https://interactive-image-gallery-psi.vercel.app)
+🔗 **Live Demo:** [interactive-image-gallery-psi.vercel.app](https://interactive-image-gallery-psi.vercel.app)
+
+![Interactive Image Gallery Preview](screenshot.png)
 
 ## ✨ Features
 
@@ -29,6 +31,17 @@ Interactive-Image-Gallery/
 └── README.md
 ```
 
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Arshia239/Interactive-Image-Gallery.git
+cd Interactive-Image-Gallery
+```
+
+Then simply open `index.html` in your browser — no build tools or dependencies required.
+
 ## 📌 What I Learned
 
 - Filtering DOM elements dynamically with JavaScript
@@ -42,10 +55,13 @@ Interactive-Image-Gallery/
 - Add image search by title
 - Lazy-load images for faster initial page load
 
-📬 Contact
+## 📬 Contact
 
-Arshia — GitHub @Arshia239 | LinkedIn
+**Arshia** — [GitHub @Arshia239](https://github.com/Arshia239) | [LinkedIn](https://www.linkedin.com/in/arshia-noonari-099011262)
 
-
+---
 
 ⭐ If you like this project, consider giving it a star!
+
+
+
